@@ -1,7 +1,7 @@
 # Modo Súper
 
-Prototipo de **Modo Súper**: una experiencia distinta según lo que compras en
-Súper Market Retail. Nace del análisis de causa raíz del caso académico
+**Modo Súper**: es una experiencia distinta porque tienes opciones para disfrutar según tus compras en
+Súper Market Retail. Esto, nace del análisis de causa raíz de un caso académico
 *Super Market Retail* (Maestría en Ciencia de Datos), como respuesta al
 hallazgo de que la caída de ventas se explica por una caída de **frecuencia
 de compra**, no por abandono de clientes, y de que cada categoría tiene una
@@ -50,7 +50,7 @@ de consumo que el estudio no midió. La alternativa fiel a los datos sería
 película entera), pensado para la pausa del mediodía. El bloque a editar es
 `DATA.noche` y la sección `#view-noche` dentro de `index.html`.
 
-## Cómo probarlo en local
+## Cómo probarlo 
 
 Ábrelo directo, no requiere nada más:
 
@@ -58,28 +58,6 @@ película entera), pensado para la pausa del mediodía. El bloque a editar es
 open index.html        # macOS
 xdg-open index.html    # Linux
 start index.html       # Windows
-```
-
-## Cómo publicarlo en GitHub Pages
-
-1. Sube este repositorio a tu cuenta de GitHub (ver comandos abajo).
-2. En el repo, ve a **Settings -> Pages** -> Source: rama `main`, carpeta `/root`.
-3. Listo: la URL pública que te da GitHub ya sirve `index.html` y sus
-   Modos en `#previa`, `#cocina`, `#noche` y `#antojo`.
-
-## Subir este repo a tu GitHub
-
-Este proyecto ya tiene un repositorio git local con historial. Solo falta
-conectarlo a GitHub:
-
-```bash
-# 1. Crea un repositorio vacío en GitHub llamado, por ejemplo, "modo-super"
-#    (sin README ni .gitignore, para no generar conflictos)
-
-# 2. Conéctalo y sube el contenido
-git remote add origin https://github.com/TU-USUARIO/modo-super.git
-git branch -M main
-git push -u origin main
 ```
 
 ## Qué sigue (si se convierte en algo real)
@@ -99,5 +77,5 @@ git push -u origin main
 
 *Prototipo académico - Maestría en Ciencia de Datos, curso Fundamentos de
 Estrategia de Negocios para Ciencias de Datos. El contenido de cada Modo es
-de ejemplo y no representa productos ni promociones reales de ninguna cadena
+un ejemplo y no representa productos ni promociones reales de ninguna cadena
 de supermercados existente.*
